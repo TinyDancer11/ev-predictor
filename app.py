@@ -36,7 +36,7 @@ model, feature_columns, scaler, explainer = load_models()
 # ── Question labels ──────────────────────────────────────────────────────────
 QUESTION_LABELS = {
     "q22_future_belief": "Keyakinan bahwa EV adalah kendaraan masa depan",
-    "q25_infra_concern": "Kekhawatiran terhadap infrastruktur pengisian daya",
+    "q25_infra_concern": "Kepercayaan terhadap infrastruktur pengisian daya",
     "q21_tech_interest": "Ketertarikan terhadap teknologi kendaraan baru",
     "q24_range_anxiety": "Kecemasan terhadap jangkauan baterai (range anxiety)",
     "q23_ev_knowledge": "Pengetahuan tentang kendaraan listrik",
